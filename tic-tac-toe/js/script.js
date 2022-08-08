@@ -17,7 +17,7 @@ function joga(celula){
 function verifica(){
     c11 = document.getElementById('cel11').innerHTML;
     c12 = document.getElementById('cel12').innerHTML;
-    c13 = document.getElementById('cel13').innerHTML;
+    c13 = document.getElementById('cel13').innerHTML;ss
     c21 = document.getElementById('cel21').innerHTML;
     c22 = document.getElementById('cel22').innerHTML;
     c23 = document.getElementById('cel23').innerHTML;
