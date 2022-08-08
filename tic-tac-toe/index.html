@@ -13,28 +13,27 @@
 <body>
     <div class="container">
         <div class="linha">
-            <div class="casa" id="cel11" onclick="joga(this);verifica();"></div>
-            <div class="casa" id="cel12" onclick="joga(this);verifica();"></div>
-            <div class="casa" id="cel13" onclick="joga(this);verifica();"></div>
+            <div class="casa" id="cel11" onclick="joga(this.id);verifica();"></div>
+            <div class="casa" id="cel12" onclick="joga(this.id);verifica();"></div>
+            <div class="casa" id="cel13" onclick="joga(this.id);verifica();"></div>
         </div>
 
         <div class="linha">
-            <div class="casa" id="cel21" onclick="joga(this);verifica();"></div>
-            <div class="casa" id="cel22" onclick="joga(this);verifica();"></div>
-            <div class="casa" id="cel23" onclick="joga(this);verifica();"></div>
+            <div class="casa" id="cel21" onclick="joga(this.id);verifica();"></div>
+            <div class="casa" id="cel22" onclick="joga(this.id);verifica();"></div>
+            <div class="casa" id="cel23" onclick="joga(this.id);verifica();"></div>
         </div>
 
         <div class="linha">
-            <div class="casa" id="cel31" onclick="joga(this);verifica();"></div>
-            <div class="casa" id="cel32" onclick="joga(this);verifica();"></div>
-            <div class="casa" id="cel33" onclick="joga(this);verifica();"></div>
+            <div class="casa" id="cel31" onclick="joga(this.id);verifica();"></div>
+            <div class="casa" id="cel32" onclick="joga(this.id);verifica();"></div>
+            <div class="casa" id="cel33" onclick="joga(this.id);verifica();"></div>
         </div>
     </div>
 
     <div id="botao">
-        <input type="button" id="botao" value="Novo Jogo">
+        <input type="button" id="botao" onclick="novo()"; value="Novo Jogo">
     </div>
 
 </body>
-
 </html>
