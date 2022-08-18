@@ -17,7 +17,7 @@ function joga(celula){
 function verifica(){
     c11 = document.getElementById('cel11').innerHTML;
     c12 = document.getElementById('cel12').innerHTML;
-    c13 = document.getElementById('cel13').innerHTML;ss
+    c13 = document.getElementById('cel13').innerHTML;
     c21 = document.getElementById('cel21').innerHTML;
     c22 = document.getElementById('cel22').innerHTML;
     c23 = document.getElementById('cel23').innerHTML;
@@ -37,10 +37,10 @@ function verifica(){
  }
 }
 
-function nova(){
+function novo(){
     for (i=1; i<4; i++){
      for (j=1; j<4; j++){
-         nomecelula='cel' + i + j;
+         nomecelula ='cel' + i + j;
          document.getElementById(nomecelula).innerHTML = '';
     }
  }
